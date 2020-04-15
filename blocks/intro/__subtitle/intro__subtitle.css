@@ -7,4 +7,5 @@
   color: #FFFFFF;
   margin-top: calc(1em * (40/24));
   margin-bottom: 0;
+  width: calc(100% * (690/984));
 }

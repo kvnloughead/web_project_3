@@ -1,4 +1,5 @@
 .intro__title {
+  position: relative;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
@@ -6,4 +7,5 @@
   color: #FFFFFF;
   margin-top: calc(1em * (92/54));
   margin-bottom: 0;
+  width: calc(100% * (690/984));
 }

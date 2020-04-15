@@ -4,5 +4,5 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 34px 148px 0 148px;
+  padding-top: 34px;
 }
