@@ -1,5 +1,7 @@
-@import url(./__place/places__place.css);
-
 .places {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 92px 148px 0 148px;
+  width: calc(100% * (984/1280));
 }

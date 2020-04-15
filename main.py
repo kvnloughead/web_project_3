@@ -97,15 +97,17 @@ def line_prepender(filename, line):
 
 
 
-blocks = {  'root'   : [],
-            'header' : ['lang-link'],
-            'logo' : [],
-            'lead' : ['title', 'subtitle', 'image', 'caption'],
-            'intro': ['title', 'text', 'list'],
-            'photo-grid': ['item'],
-            'places': ['place'],
-            'cover': ['title', 'subtitle', 'overlay', 'background'],
-            'footer': ['link', 'copyright'] 
-         }
+blocks_proj_3 = {  'root'   : [],
+                   'header' : ['lang-link'],
+                   'logo' : [],
+                   'lead' : ['title', 'subtitle', 'image', 'caption'],
+                   'intro': ['title', 'text', 'list'],
+                   'photo-grid': ['item'],
+                   'places': ['place'],
+                   'cover': ['title', 'subtitle', 'overlay', 'background'],
+                   'footer': ['link', 'copyright'] 
+                }
+
+blocks = {'place' : ['title', 'image', 'link', 'text']}
 
 make_all_directories(blocks)
