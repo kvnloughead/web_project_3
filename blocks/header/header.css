@@ -1,0 +1,10 @@
+@import url(./__lang-link/header__lang-link.css);
+
+.header {
+  width: 984px;
+  height: 44px;
+  background-color: #2A2C2F;
+  display: grid;
+  grid-template-columns: auto 29px 29px;
+  grid-gap: 18px;
+}
