@@ -4,6 +4,15 @@
   font-size: 72px;
   line-height: 106%;
   color: #FFFFFF;
-  padding-bottom: 48px;
+  padding: 0;
   margin: 0;
+  align-self: center;
 }
+
+@media screen and (max-width: 1023px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 110%;
+    vertical-align: bottom;
+  }
+} 
