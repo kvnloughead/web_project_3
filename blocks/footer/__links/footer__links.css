@@ -1,0 +1,7 @@
+.footer__links {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+}
