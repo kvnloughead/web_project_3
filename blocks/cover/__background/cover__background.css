@@ -3,3 +3,9 @@
   width: 1184px;
   object-fit: cover;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover__background {
+    width: 1024px;
+  }
+}

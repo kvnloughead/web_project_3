@@ -9,3 +9,9 @@
   position: relative;
   align-self: center;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover {
+    width: 1024px;
+  }
+}
