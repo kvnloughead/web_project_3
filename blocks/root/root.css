@@ -18,11 +18,9 @@
   align-items: center;
   padding: 34px 148px 0 148px;
   margin: 0;
-  /* padding: 34px calc(100% * (148 / 1280)) 0 calc(100% * (148 / 1280)); */
   color: #FFFFFF;
   -webkit-text-size-adjust: auto;
   -ms-text-size-adjust: auto;
-  /* This apparently doesn't work for firefox */
   -moz-text-size-adjust: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

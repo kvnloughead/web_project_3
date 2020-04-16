@@ -1,3 +1,5 @@
 .cover__background {
-
+  height: 740px;
+  width: 1184px;
+  object-fit: cover;
 }
