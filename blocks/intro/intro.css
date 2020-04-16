@@ -6,7 +6,7 @@
 @import url(./__list-item/_text/intro__list-item_text_bold.css);
 
 .intro {
-  margin: 0 148px 0 148px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: left;

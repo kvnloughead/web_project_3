@@ -1,7 +1,8 @@
 @import url(./__lang-link/header__lang-link.css);
 
 .header {
-  width: 984px;
+  /* margin: 0 148px 0 148px; */
+  width: 100%;
   height: 44px;
   background-color: #2A2C2F;
   display: grid;

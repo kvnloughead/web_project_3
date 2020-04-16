@@ -1,8 +1,7 @@
 .header__lang-link {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: calc(1em * (24/11));
   line-height: 28px;
   text-align: right;
   text-decoration: none;

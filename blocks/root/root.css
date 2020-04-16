@@ -1,8 +1,28 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Bold.woff2);
+  font-weight: bold;
+}
+
 .root {
   font-family: 'Inter', sans-serif;
   background-color: #2A2C2F;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 34px;
+  padding: 34px calc(100% * (148 / 1280)) 0 calc(100% * (148 / 1280));
+  color: #FFFFFF;
+  -webkit-text-size-adjust: auto;
+  -ms-text-size-adjust: auto;
+  /* This apparently doesn't work for firefox */
+  -moz-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;  
 }
