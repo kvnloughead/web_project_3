@@ -9,9 +9,8 @@
 
 .place {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 4fr;
-  grid-gap: 40px;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: auto auto;
+  grid-column-gap: 40px;
   width: 100%;
-  align-items: end;
 }
