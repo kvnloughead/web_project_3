@@ -12,3 +12,10 @@
 .header__lang-link:nth-of-type(1) {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

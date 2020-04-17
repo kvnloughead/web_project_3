@@ -1,7 +1,7 @@
 .cover__text-container {
   position: absolute;
   bottom: calc(100% * (283/740));
-  width: 656px;
+  width: calc(100vw * (656 / 1280));
   right: calc(50% - calc(656px / 2));
   text-align: center;
   display: flex;

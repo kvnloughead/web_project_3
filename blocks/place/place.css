@@ -9,23 +9,23 @@
 
 .place {
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: calc(100vw * (460 / 1280)) calc(100vw * (484 / 1280));
   grid-template-rows: auto auto;
-  grid-column-gap: 40px;
-  grid-row-gap: 48px;
+  grid-column-gap: calc(100vw * (40 / 1280));
+  grid-row-gap: calc(100vw * (48 / 1028));
   width: 100%;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place {
-    grid-template-columns: 440px 456px;
-    grid-column-gap: 32px;
+    grid-template-columns: calc(100vw * (440 / 1024)) calc(100vw * (456 / 1024));
+    grid-column-gap: calc(100vw * (32 / 1024));
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
-    grid-template-columns: 340px 352px;
-    grid-column-gap: 28px;
+    grid-template-columns: calc(100vw * (340 / 768)) calc(100vw * (352 / 768));
+    grid-column-gap: calc(100vw * (28 / 768));
   }
 }

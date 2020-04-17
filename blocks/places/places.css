@@ -1,6 +1,12 @@
 .places {
   align-items: center;
-  padding: 92px 0 0 0;
+  padding: 11.98vw 0 0 0;
   width: 100%;
   margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .root {
+    padding: 11.45vw;
+  }
 }

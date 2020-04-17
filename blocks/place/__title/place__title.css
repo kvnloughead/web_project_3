@@ -1,7 +1,7 @@
 .place__title {
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
+  font-size: calc(100vw * (72 / 1280));
   line-height: 106%;
   color: #FFFFFF;
   padding: 0;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1023px) {
   .place__title {
-    font-size: 42px;
+    font-size: calc(100vw * (42 / 1024));
     line-height: 110%;
     vertical-align: bottom;
   }
