@@ -6,6 +6,7 @@
   line-height: 122%;
   text-align: center;
   width: 320px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 425px) {
