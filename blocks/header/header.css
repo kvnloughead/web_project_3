@@ -1,11 +1,12 @@
 @import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_deco/header__lang-link_deco_underline.css);
 
 .header {
-  width: 100%;
   height: 44px;
   background-color: #2A2C2F;
   display: grid;
   grid-template-columns: auto 29px 29px;
+  padding: 2.65vw 11.5625vw 0 11.5625vw;
   grid-gap: 18px;
 }
 
@@ -14,6 +15,24 @@
     grid-template-columns: auto 5.8vw 5.8vw;
     height: 7.2vw;
     grid-gap: 3.6vw;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .header {
+    padding: 3.32vw 4.69vw 0 4.69vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    padding: 4.427vw 3.125vw 0 3.125vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 4vw 3.2vw 0 3.2vw;
   }
 }
 
