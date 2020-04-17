@@ -7,6 +7,9 @@
   grid-gap: 16px;
   grid-auto-flow: row;
   width: calc(100% + (200 / 1280));
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
