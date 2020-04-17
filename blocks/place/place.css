@@ -23,9 +23,15 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 426px) and (max-width: 1023px) {
   .place {
     grid-template-columns: calc(100vw * (340 / 768)) calc(100vw * (352 / 768));
     grid-column-gap: calc(100vw * (28 / 768));
   }
+}
+
+@media screen and (max-width: 425px) {
+  .place {
+    display: flex;
+  } 
 }

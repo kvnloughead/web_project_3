@@ -2,10 +2,11 @@
   height: calc(100vw * (740 / 1280));
   width: calc(100vw * (1184 / 1280));
   object-fit: cover;
+  z-index: -1;
 }
 
 @media screen and (max-width: 1279px) {
   .cover__background {
-    /* width: 100%; */
+    width: 100vw;
   }
 }

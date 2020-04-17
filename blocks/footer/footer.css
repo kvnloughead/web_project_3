@@ -4,8 +4,9 @@
 
 .footer {
   display: grid;
-  grid-template-columns: 211px auto 168px;
-  width: calc(100% + 216px);
+  grid-template-columns: calc(100vw * (211 / 1280)) auto 168px;
+  /* grid-template-columns: calc(100vw * (211 / 1280)) auto calc(100vw * (168 / 1280)); */
+  width: calc(100vw + (216 / 1280));
 }
 
 @media screen and (min-width: 320px) and (max-width: 1279px) {

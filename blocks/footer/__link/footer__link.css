@@ -5,5 +5,5 @@
   line-height: 112%;
   color: #FFFFFF;
   text-decoration: none;
-  padding-right:  18px;
+  padding-right:  calc(100vw * (18 / 1280));
 }
