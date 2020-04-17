@@ -1,12 +1,8 @@
 .cover__title { 
-  /* position: absolute;
-  top: calc(100% * (283/740));
-  width: 656px;
-  right: calc(50% - calc(656px / 2)); */
   margin: 0;
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
+  font-size: calc(100vw * (72 / 1280));
   line-height: 106%;
   color: #FFFDFD;
 }

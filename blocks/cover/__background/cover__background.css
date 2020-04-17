@@ -1,12 +1,11 @@
 .cover__background {
-  height: calc(100vw * (740 / 1280));
-  width: calc(100vw * (1184 / 1280));
-  object-fit: cover;
-  z-index: -1;
-}
-
-@media screen and (max-width: 1279px) {
-  .cover__background {
-    width: 100vw;
-  }
+  height: 100%;
+  width: 100%;
+  background-image: url("../../../images/cover-route-66.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
