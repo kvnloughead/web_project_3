@@ -1,5 +1,4 @@
 .footer__copyright {
-  /* width: calc(100vw * (168 / 1280)); */
   width: 168px;
   grid-column: 3;
   font-style: normal;
@@ -7,4 +6,12 @@
   font-size: 14px;
   line-height: 114%;
   text-align: right;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__copyright {
+    line-height: 100%;
+    text-align: left;
+    margin-top: 16px;
+  }
 }

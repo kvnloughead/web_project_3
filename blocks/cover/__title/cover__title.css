@@ -5,4 +5,12 @@
   font-size: calc(100vw * (72 / 1280));
   line-height: 106%;
   color: #FFFDFD;
+  width: calc(656px + (.1 * vw));
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    width: calc(288px + (.1 * vw));
+    font-size: 32px;
+  }
 }

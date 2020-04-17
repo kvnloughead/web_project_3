@@ -5,7 +5,7 @@
 @import url(./__text-container/cover__text-container.css);
 
 .cover {
-  width: 100vw;
+  width: 100%;
   position: relative;
   align-self: center;
   text-align: center;

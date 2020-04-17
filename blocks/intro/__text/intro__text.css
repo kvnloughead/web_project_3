@@ -6,7 +6,7 @@
   font-size: 18px;
   line-height: 167%;
   margin: 2em 0 2em 0;
-  width: 690px;
+  width: calc(100vw * (690 / 1280));
 }
 
 @media screen and (max-width: 1023px) {

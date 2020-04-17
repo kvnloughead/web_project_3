@@ -33,5 +33,7 @@
 @media screen and (max-width: 425px) {
   .place {
     display: flex;
+    flex-direction: column;
+    justify-content: right;
   } 
 }

@@ -1,3 +1,5 @@
 .intro__list-item_text_bold {
   font-weight: bold;
+  font-size: 12px;
+  line-height: 150%;
 }

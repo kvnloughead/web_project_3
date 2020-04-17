@@ -11,5 +11,6 @@
   .place__text {
     font-size: 16px;
     line-height: 162%;
+    padding-bottom: 1.5em;
   }
 }

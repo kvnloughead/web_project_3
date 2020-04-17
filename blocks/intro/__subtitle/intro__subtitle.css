@@ -7,5 +7,11 @@
   color: #FFFFFF;
   margin-top: calc(1em * (40/24));
   margin-bottom: 0;
-  width: 690px;
+  width: calc(100vw * (690 / 1280));
+}
+
+@media screen and (max-width: 767px) {
+  .intro__subtitle {
+    line-height: 125%;
+  }
 }

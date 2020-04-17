@@ -9,10 +9,17 @@
   align-self: center;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__title {
     font-size: calc(100vw * (42 / 1024));
     line-height: 110%;
     vertical-align: bottom;
   }
 } 
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 32;
+    align-self: flex-start;
+  }
+}
