@@ -7,7 +7,14 @@
   color: #FFFFFF;
   margin-top: calc(1em * (40/24));
   margin-bottom: 0;
-  width: calc(100vw * (690 / 1280));
+  width: 690px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .intro__subtitle {
+    width: calc(100vw - 48px);
+  }
 }
 
 @media screen and (max-width: 767px) {

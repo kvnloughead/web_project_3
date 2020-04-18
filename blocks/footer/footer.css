@@ -5,6 +5,7 @@
 .footer {
   display: grid;
   grid-template-columns: calc(100vw * (211 / 1280)) auto 168px;
+  background-color: #2A2C2F;
   width: 100%;
 }
 

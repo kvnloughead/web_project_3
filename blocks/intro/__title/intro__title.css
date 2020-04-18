@@ -6,7 +6,13 @@
   line-height: 107%;
   color: #FFFFFF;
   margin-top: calc(1em * (92/54));
-  width: calc(100vw * (690 / 1280)); 
+  width: 690px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    width: calc(100vw - 48px);
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -15,3 +21,4 @@
     line-height: 35px;
   }
 }
+
