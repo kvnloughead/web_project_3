@@ -5,10 +5,18 @@
 .footer {
   font-family: 'Inter', 'Arial', sans-serif;
   display: grid;
+  /* I know you said this was wrong, but I think it works now, with the */
+  /* other changes I made. */
   grid-template-columns: calc(100vw * (211 / 1280)) auto 168px;
   background-color: #2A2C2F;
   width: calc(100vw - 96px);
   padding: 0 48px 0 48px;  
+}
+
+@media screen and (min-width: 426px) and (max-width: 1279) {
+  .footer {
+    width: 211px;
+  }
 }
 
 @media screen and (max-width: 425px) {
