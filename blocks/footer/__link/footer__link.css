@@ -1,0 +1,18 @@
+.footer__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 112%;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-right:  calc(100vw * (18 / 1280));
+}
+
+@media screen and (max-width: 425px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 100%;
+    padding-bottom: 32px;
+    display: block;
+  }
+}

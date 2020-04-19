@@ -1,0 +1,20 @@
+.footer__links {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .footer__links {
+    grid-template-columns: auto auto auto;
+  }
+}

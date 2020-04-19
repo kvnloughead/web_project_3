@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Bold.woff2);
+  font-weight: bold;
+}
+
+.root {
+  font-family: 'Inter', 'Arial', sans-serif;
+  background-color: #2A2C2F;
+  color: #FFFFFF;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.65vw 11.5625vw 0 11.5625vw;
+  box-sizing: border-box;
+  margin: 0;
+  align-self: center;
+
+  -webkit-text-size-adjust: auto;
+  -ms-text-size-adjust: auto;
+  -moz-text-size-adjust: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;  
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .root {
+    padding: 3.32vw 4.69vw 0 4.69vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .root {
+    padding: 4.427vw 3.125vw 0 3.125vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .root {
+    padding: 4vw 3.2vw 0 3.2vw;
+  }
+}

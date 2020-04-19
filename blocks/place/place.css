@@ -1,0 +1,39 @@
+@import url(./__title/place__title.css);
+@import url(./__image/place__image.css);
+@import url(./__text/place__text.css);
+@import url(./__link/place__link.css);
+@import url(./__website/place__website.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__url-link/place__url-link.css);
+@import url(./__description//place__description.css);
+
+.place {
+  display: grid;
+  grid-template-columns: calc(100vw * (460 / 1280)) calc(100vw * (484 / 1280));
+  grid-template-rows: auto auto;
+  grid-column-gap: calc(100vw * (40 / 1280));
+  grid-row-gap: calc(100vw * (48 / 1028));
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+    grid-template-columns: calc(100vw * (440 / 1024)) calc(100vw * (456 / 1024));
+    grid-column-gap: calc(100vw * (32 / 1024));
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1023px) {
+  .place {
+    grid-template-columns: calc(100vw * (340 / 768)) calc(100vw * (352 / 768));
+    grid-column-gap: calc(100vw * (28 / 768));
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  } 
+}

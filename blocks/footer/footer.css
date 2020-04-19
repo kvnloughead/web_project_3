@@ -1,0 +1,20 @@
+@import url(./__link/footer__link.css);
+@import url(./__links/footer__links.css);
+@import url(./__copyright/footer__copyright.css);
+
+.footer {
+  font-family: 'Inter', 'Arial', sans-serif;
+  display: grid;
+  grid-template-columns: calc(100vw * (211 / 1280)) auto 168px;
+  background-color: #2A2C2F;
+  width: calc(100vw - 96px);
+  padding: 0 48px 0 48px;  
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+  }
+}

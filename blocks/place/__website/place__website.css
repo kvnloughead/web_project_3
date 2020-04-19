@@ -1,0 +1,15 @@
+.place__website {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-self: end;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .place__website {
+    z-index: -1;
+    position: absolute;
+  } 
+}

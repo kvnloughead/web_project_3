@@ -1,0 +1,9 @@
+.place__url-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  vertical-align: center;
+}

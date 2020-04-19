@@ -1,0 +1,12 @@
+.places {
+  align-items: center;
+  padding: 11.98vw 0 0 0;
+  width: 100%;
+  margin: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .places {
+    width: 100vw;
+  }
+}

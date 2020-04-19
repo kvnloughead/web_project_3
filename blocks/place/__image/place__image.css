@@ -1,0 +1,12 @@
+.place__image {
+  width: 100%;
+  padding-bottom: calc(100vw * 48 / 1280);
+}
+
+@media screen and (max-width: 424px) {
+  .place__image {
+    padding: 32px 0;
+  }
+}
+
+
