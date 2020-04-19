@@ -9,7 +9,7 @@
   position: relative;
   align-self: center;
   text-align: center;
-  height: calc(100vw * (740 / 1280));
+  height: 740px;
   margin-bottom: 92px;
 }
 

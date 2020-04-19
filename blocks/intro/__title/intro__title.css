@@ -5,7 +5,7 @@
   font-size: 54px;
   line-height: 107%;
   color: #FFFFFF;
-  margin-top: calc(1em * (92/54));
+  margin-top: 92px;
   margin-bottom: 0;
   width: 690px;
 }
@@ -13,6 +13,7 @@
 @media screen and (max-width: 768px) {
   .intro__title {
     width: calc(100vw - 48px);
+    margin-top: 88px;
   }
 }
 
@@ -20,6 +21,8 @@
   .intro__title {
     font-size: 32px;
     line-height: 35px;
+    margin-top: 64px;
+    width: 288px;
   }
 }
 

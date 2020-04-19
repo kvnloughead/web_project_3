@@ -7,4 +7,6 @@
   text-transform: uppercase;
   color: #FFFFFF;
   align-self: flex-start;
+  padding: 8px 0 0 0;
+  margin: 0;
 }

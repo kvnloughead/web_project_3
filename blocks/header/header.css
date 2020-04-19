@@ -5,15 +5,17 @@
   height: 44px;
   background-color: #2A2C2F;
   display: grid;
-  grid-template-columns: auto 29px 29px;
+  grid-template-columns: 190px auto 29px 29px;
   padding: 2.65vw 11.5625vw 0 11.5625vw;
   grid-gap: 18px;
+  font-family: 'Inter', 'Arial', sans-serif;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 767px) {
   .header {
-    grid-template-columns: auto 5.8vw 5.8vw;
-    height: 7.2vw;
+    grid-template-columns: 156px auto 5.8vw 5.8vw;
+    padding: 20px 16px 0 16px;
     grid-gap: 3.6vw;
   }
 }
@@ -30,9 +32,5 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .header {
-    padding: 4vw 3.2vw 0 3.2vw;
-  }
-}
+
 
