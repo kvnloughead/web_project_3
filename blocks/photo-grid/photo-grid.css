@@ -6,7 +6,11 @@
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 16px;
   grid-auto-flow: row;
+<<<<<<< HEAD
   width: calc(100vw - 96px);
+=======
+  width: calc(100% + (200 / 1280));
+>>>>>>> e72a460df7bb0dfa7214bf5bffa29dba274cc5c8
   list-style: none;
   margin: 0;
   padding: 0;
