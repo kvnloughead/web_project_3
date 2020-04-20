@@ -5,21 +5,13 @@
   font-size: 72px;
   line-height: 106%;
   color: #FFFDFD;
-<<<<<<< HEAD
   width: 656px;
-=======
-  width: calc(656px + (.1 * vw));
->>>>>>> e72a460df7bb0dfa7214bf5bffa29dba274cc5c8
   z-index: 1;
 }
 
 @media screen and (max-width: 767px) {
   .cover__title {
-<<<<<<< HEAD
     width: 288px;
-=======
-    width: calc(288px + (.1 * vw));
->>>>>>> e72a460df7bb0dfa7214bf5bffa29dba274cc5c8
     font-size: 32px;
   }
 }

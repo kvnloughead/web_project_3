@@ -8,13 +8,25 @@
 
 .place {
   display: grid;
-  grid-template-columns: 460px 480px;
+  grid-template-columns: 460px 484px;
   grid-template-rows: auto auto;
   column-gap: 40px;
   row-gap: 48px;
   width: 984px;
   padding-bottom: 80px;
+  margin: 0;
 }
+
+.place:last-of-type {
+  padding-bottom: 0;
+}
+
+@media screen and (min-width: 1025px) {
+  .place:nth-of-type(2) {
+    padding-bottom: 88px;
+  }
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .place {

@@ -9,7 +9,8 @@
   /* other changes I made. */
   grid-template-columns: calc(100vw * (211 / 1280)) auto 168px;
   background-color: #2A2C2F;
-  width: calc(100vw - 96px);
+  width: 100vw;
+  box-sizing: border-box;
   padding: 0 48px 24px 48px;  
   align-items: start;
 }
@@ -17,6 +18,12 @@
 @media screen and (min-width: 426px) and (max-width: 1279) {
   .footer {
     width: 211px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 0 24px 24px 24px;
   }
 }
 

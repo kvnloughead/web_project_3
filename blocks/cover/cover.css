@@ -5,12 +5,12 @@
 @import url(./__text-container/cover__text-container.css);
 
 .cover {
-  width: 100%;
+  width: calc(100vw - 96px);
   position: relative;
   align-self: center;
   text-align: center;
   height: 740px;
-  margin-bottom: 92px;
+  margin: 92px 0;
 }
 
 @media screen  and (max-width: 1279px) {
@@ -21,7 +21,7 @@
   }  
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .cover {
     width: 100vw;
     height: calc(100vw * (640 / 1024));

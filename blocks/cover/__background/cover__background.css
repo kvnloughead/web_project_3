@@ -10,8 +10,3 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 1023px) {
-  .cover__background {
-    width: 100vw;
-  }
-}
