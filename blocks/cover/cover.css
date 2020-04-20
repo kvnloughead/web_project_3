@@ -14,27 +14,17 @@
   align-self: center;
   text-align: center;
   height: calc(100vw * (740 / 1280));
-<<<<<<< HEAD
   margin-bottom: 92px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-=======
-}
-
-@media screen and (min-width: 1024) and (max-width: 1279px) {
->>>>>>> e72a460df7bb0dfa7214bf5bffa29dba274cc5c8
   .cover {
     width: 100vw;
     height: calc(100vw * (640 / 1024));
   }
 }
 
-<<<<<<< HEAD
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-=======
-@media screen and (min-width: 768) and (max-width: 1023px) {
->>>>>>> e72a460df7bb0dfa7214bf5bffa29dba274cc5c8
   .cover {
     height: 100vw;
   }
