@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- I left the font-size of my place__text at 18px for 
+    and 1024 and 16px at 768 and 320.  I am told that the specs 
+    are wrong in this case. --> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>From Portland to Portland</title>
     <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./vendor/fonts/inter.css">
     <link rel="stylesheet" href="./pages/index.css">
   </head>
   <body>
       <header class="header">
-        <div class="logo"></div>
-        <a href="#" class="header__lang-link link-hover 
-                           header__lang-link_deco_underline">En</a>
-        <a href="#" class="header__lang-link link-hover">Es</a>
+        <img src="./images/logo.png" class="logo">
+        <nav>
+          <ul class="header__links">
+            <li class=""> 
+              <a href="#" class="header__link
+                 header__link_deco_underline link-hover">En</a>    
+            </li>
+            <li>
+              <a href="#" class="header__link link-hover">Es</a>    
+            </li>
+          </ul>
+        </nav>
       </header>
     <main class="root">
       <section class="lead">

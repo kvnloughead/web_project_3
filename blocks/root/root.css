@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2.65vw 11.5625vw 0 11.5625vw;
+  padding: 0 11.5625vw 0 11.5625vw;
   box-sizing: border-box;
   margin: 0;
   align-self: center;
@@ -34,18 +34,18 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .root {
-    padding: 3.32vw 4.69vw 0 4.69vw;
+    padding: 0 4.69vw 0 4.69vw;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .root {
-    padding: 4.427vw 3.125vw 0 3.125vw;
+    padding: 0 3.125vw 0 3.125vw;
   }
 }
 
 @media screen and (max-width: 767px) {
   .root {
-    padding: 4vw 3.2vw 0 3.2vw;
+    padding: 0 5vw 0 5vw;
   }
 }

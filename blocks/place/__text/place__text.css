@@ -1,16 +1,23 @@
 .place__text {
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
-  line-height: 167%;
-  color: #FFFFFF;
-  margin: 0 0 1.25em 0;
+  line-height: 1.67;
+  margin: 0 0 24px 0;
 }
 
-@media screen and (max-width: 768px) {
+.place__text:last-of-type {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) and (min-width: 1023px) {
+  .place__text {
+    width: 352x;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .place__text {
     font-size: 16px;
-    line-height: 162%;
-    padding-bottom: 1.5em;
+    line-height: 1.63;
+    width: 288px;
   }
 }
