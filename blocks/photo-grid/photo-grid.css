@@ -1,15 +1,16 @@
 @import url(./__item/photo-grid__item.css);
 
 .photo-grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   display: grid;
+  justify-content: center;
+  width: calc(100vw - 96px);
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 213px);
   grid-gap: 16px;
   grid-auto-flow: row;
-  width: calc(100vw - 96px);
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 @media screen and (max-width: 1279px) {
@@ -42,3 +43,4 @@
     text-align: center;
   }
 }
+

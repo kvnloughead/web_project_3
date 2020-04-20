@@ -1,9 +1,6 @@
 .intro__text {
-  font-style: normal;
-  font-weight: normal;
-  color: #FFFFFF;
   font-size: 18px;
-  line-height: 167%;
+  line-height: 1.67;
   margin: 32px 0 32px 0;
   width: 690px;
 }

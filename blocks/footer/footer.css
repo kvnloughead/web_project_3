@@ -10,7 +10,8 @@
   grid-template-columns: calc(100vw * (211 / 1280)) auto 168px;
   background-color: #2A2C2F;
   width: calc(100vw - 96px);
-  padding: 0 48px 0 48px;  
+  padding: 0 48px 24px 48px;  
+  align-items: start;
 }
 
 @media screen and (min-width: 426px) and (max-width: 1279) {
@@ -19,10 +20,12 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   .footer {
     display: flex;
     flex-direction: column;
-    padding-top: 64px;
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
   }
 }

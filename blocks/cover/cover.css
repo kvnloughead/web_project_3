@@ -13,21 +13,21 @@
   margin-bottom: 92px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen  and (max-width: 1279px) {
   .cover {
     width: 100vw;
     height: calc(100vw * (640 / 1024));
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen  and (max-width: 1279px) {
   .cover {
-    height: 100vw;
+    margin-bottom: 88px;    
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen  and (max-width: 600px) {
   .cover {
-    height: 100vw
+    margin-bottom: 64px;    
   }
 }
