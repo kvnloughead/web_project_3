@@ -4,9 +4,8 @@
 
 .footer {
   font-family: 'Inter', 'Arial', sans-serif;
+  text-align: left;
   display: grid;
-  /* I know you said this was wrong, but I think it works now, with the */
-  /* other changes I made. */
   grid-template-columns: calc(100vw * (211 / 1280)) auto 168px;
   background-color: #2A2C2F;
   width: 100vw;
@@ -15,9 +14,10 @@
   align-items: start;
 }
 
-@media screen and (min-width: 426px) and (max-width: 1279px) {
+@media screen and (min-width: 1281px) {
   .footer {
-    width: 211px;
+    padding: 0 calc(100vw * (48 / 1280)) calc(100vw * (24 / 1280)) calc(100vw * (48 / 1280)); 
+    grid-template-columns: calc(100vw * (211 / 1280)) auto calc(100vw * (168 / 1280));
   }
 }
 

@@ -2,6 +2,7 @@
 @import url('./__subtitle/lead__subtitle.css');
 @import url('./__image/lead__image.css');
 @import url('./__caption/lead__caption.css');
+@import url('./__image-container/lead__image-container.css');
 
 .lead {
   display: flex;

@@ -21,22 +21,34 @@
   padding-bottom: 0;
 }
 
-@media screen and (min-width: 1025px) {
-  .place:nth-of-type(2) {
-    padding-bottom: 88px;
+.place:nth-of-type(2) {
+  padding-bottom: 88px;
+}
+
+@media screen and (min-width: 1281px) {
+  .place {
+    grid-template-columns: calc(100vw * (460 / 1280)) calc(100vw * (460 / 1280));
+    padding-bottom: calc(100vw * (80 / 1280));
+    column-gap: calc(100vw * (40 / 1280));
+    row-gap: calc(100vw * (48 / 1280));
   }
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+    grid-template-columns: calc(100vw * (440 / 1024)) calc(100vw * (456 / 1024));
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .place {
-    grid-template-columns: 440px 456px;
+    
     width: calc(100vw - 96px);
     column-gap: 32px;
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 1000px) {
+@media screen and (min-width: 426px) and (max-width: 1023px) {
   .place {
     grid-template-columns: calc(100vw * (340 / 768)) calc(100vw * (352 / 768));
     column-gap: 28px;

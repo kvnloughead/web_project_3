@@ -13,6 +13,14 @@
   grid-auto-flow: row;
 }
 
+@media screen and (min-width: 1281px) {
+  .photo-grid {
+    grid-gap: calc(100vw * (16 / 1280));
+    grid-template-rows: repeat(3, calc(100vw * (213 / 1280)));
+    width: calc(93vw);
+  }
+}
+
 @media screen and (max-width: 1279px) {
   .photo-grid {
     width: 100%;

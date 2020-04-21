@@ -5,6 +5,13 @@
   width: 690px;
 }
 
+@media screen and (min-width: 1281px) {
+  .intro__text {
+    font-size: calc(100vw * (18 / 1280));
+    margin: calc(100vw * (32 / 1280)) 0;
+    width: calc(100vw * (690 / 1280));
+  }
+}
 
 @media screen and (max-width: 1023px) {
   .intro__text {

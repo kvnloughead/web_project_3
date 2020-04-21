@@ -6,6 +6,13 @@
   color: #FFFFFF;
 }
 
+@media screen and (min-width: 1281px) {
+  .header__link {
+    font-size: calc(100vw * (24 / 1280));
+    margin-left: calc(100vw * (18 / 1280));
+  }
+}
+
 @media screen and (max-width: 767px) {
   .header__link {
     font-size: 18px;

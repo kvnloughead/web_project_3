@@ -3,7 +3,7 @@
 @import url('./__text/intro__text.css');
 @import url('./__list/intro__list.css');
 @import url('./__list-item/intro__list-item.css');
-@import url('./__list-item/_text/intro__list-item_emphasis.css');
+@import url('./__list-item/_emphasis/intro__list-item_emphasis.css');
 
 .intro {
   width: 100%;
@@ -11,6 +11,12 @@
   flex-direction: column;
   justify-content: left;
   margin-bottom: 92px;
+}
+
+@media screen and (min-width: 1281px) {
+  .intro {
+    margin-bottom: calc(100vw * (92 / 1280));
+  }
 }
 
 @media screen and (max-width: 768px) {

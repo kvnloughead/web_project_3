@@ -7,6 +7,12 @@
   padding-bottom: 10px;
 }
 
+@media screen and (min-width: 1281px) {
+  .place__website {
+    padding-bottom: calc(100vw * (10 / 1280));
+  }
+}
+
 @media screen and (max-width: 425px) {
   .place__website {
     display: none;

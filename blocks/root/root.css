@@ -19,6 +19,7 @@
   text-rendering: optimizeLegibility;  
 }
 
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .root {
     padding: 0 4.69vw 0 4.69vw;

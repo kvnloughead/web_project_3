@@ -8,12 +8,22 @@
   text-align: right;
   color: white;
   margin: 0;
+  padding: 0;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 1281px) {
+  .footer__copyright {
+    line-height: 100%;
+    margin: calc(100vw * (16 / 1280)) 0 calc(100vw * (24 / 1280)) 0;
+    font-size: calc(100vw * (14 / 1280));
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .footer__copyright {
     line-height: 100%;
     text-align: left;
-    margin-top: 16px;
+    margin: 16px 0 24px 0;
   }
 }

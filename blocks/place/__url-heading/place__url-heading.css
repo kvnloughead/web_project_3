@@ -6,3 +6,9 @@
   letter-spacing: 0.2em;
   color: #AAAAAA;
 }
+
+@media screen and (min-width: 1281px) {
+  .place__url-heading {
+    font-size: calc(100vw * (12 / 1280));
+  }
+}

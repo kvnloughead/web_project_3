@@ -6,6 +6,15 @@
   margin: 32px 0 64px 0;
 }
 
+@media screen and (min-width: 1281px) {
+  .lead__subtitle {
+    font-size: calc(100vw * (30 / 1280));
+    margin-top: calc(100vw * (32 / 1280));
+    margin-bottom: calc(100vw * (64 / 1280));
+    width: calc(100vw * (620 / 1280));
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .lead__subtitle {
     margin-bottom: 56px;

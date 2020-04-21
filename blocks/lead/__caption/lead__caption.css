@@ -8,6 +8,12 @@
   margin: 0;
 }
 
+@media screen and (min-width: 1281px) {
+  .lead__caption {
+    font-size: calc(100vw * (10 / 1280));
+  }
+}
+
 @media screen and (max-width: 768px) {
   .lead__caption {
     margin-left: 24px;

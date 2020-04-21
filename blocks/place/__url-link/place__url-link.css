@@ -7,3 +7,9 @@
   color: #FFFFFF;
   vertical-align: center;
 }
+
+@media screen and (min-width: 1281px) {
+  .place__url-link {
+    font-size: calc(100vw * (18 / 1280));
+  }
+}

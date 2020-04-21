@@ -8,6 +8,12 @@
   align-self: center;
 }
 
+@media screen and (min-width: 1281px) {
+  .place__title {
+    font-size: calc(100vw * (72 / 1280));
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .place__title {
     font-size: 42px;

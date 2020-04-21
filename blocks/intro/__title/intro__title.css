@@ -8,6 +8,14 @@
   width: 690px;
 }
 
+@media screen and (min-width: 1281px) {
+  .intro__title {
+    font-size: calc(100vw * (54 / 1280));
+    margin-top: calc(100vw * (92 / 1280));
+    width: calc(100vw * (690 / 1280));
+  }
+}
+
 @media screen and (max-width: 768px) {
   .intro__title {
     width: calc(100vw - 48px);

@@ -9,6 +9,13 @@
   z-index: 1;
 }
 
+@media screen and (min-width: 1281px) {
+  .cover__title {
+    font-size: calc(100vw * (72 / 1280));
+    width: calc(100vw * (656 / 1280));
+  }
+}
+
 @media screen and (max-width: 767px) {
   .cover__title {
     width: 288px;
