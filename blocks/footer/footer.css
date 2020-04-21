@@ -1,6 +1,6 @@
-@import url(./__link/footer__link.css);
-@import url(./__links/footer__links.css);
-@import url(./__copyright/footer__copyright.css);
+@import url('./__link/footer__link.css');
+@import url('./__links/footer__links.css');
+@import url('./__copyright/footer__copyright.css');
 
 .footer {
   font-family: 'Inter', 'Arial', sans-serif;
@@ -15,7 +15,7 @@
   align-items: start;
 }
 
-@media screen and (min-width: 426px) and (max-width: 1279) {
+@media screen and (min-width: 426px) and (max-width: 1279px) {
   .footer {
     width: 211px;
   }

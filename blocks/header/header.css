@@ -1,6 +1,6 @@
-@import url(./__links/header__links.css);
-@import url(./__link/header__link.css);
-@import url(./__link/_deco/header__link_deco_underline.css);
+@import url('./__links/header__links.css');
+@import url('./__link/header__link.css');
+@import url('./__link/_active/header__link_active.css');
 
 .header {
   background-color: #2A2C2F;

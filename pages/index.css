@@ -1,16 +1,24 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts/inter.css);
-@import url(../blocks/root/root.css);
-@import url(../blocks/header/header.css);
-@import url(../blocks/logo/logo.css);
-@import url(../blocks/lead/lead.css);
-@import url(../blocks/intro/intro.css);
-@import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/places/places.css);
-@import url(../blocks/place/place.css);
-@import url(../blocks/cover/cover.css);
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/link-hover/link-hover.css);
+/* I made this recommended change, but I thought you should
+know that there is some inconsistency in the way we were taught
+to do this.  All (or nearly all) of the relevant section in
+the course did imports without any quotation marks.  And the
+style guide is ambiguous--it recommends with single quotes, and
+recommends with no quotes, in different places.
+*/
+
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/inter.css');
+@import url('../blocks/root/root.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/place/place.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/link-hover/link-hover.css');
 
 
 
