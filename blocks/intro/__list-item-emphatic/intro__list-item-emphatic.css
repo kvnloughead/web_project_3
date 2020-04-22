@@ -1,0 +1,11 @@
+.intro__list-item-emphatic {
+  font-size: 12px;
+  line-height: 1.5;  
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1281px) {
+  .intro__list-item-emphatic {
+    font-size: calc(100vw * (12 / 1280));
+  }
+}

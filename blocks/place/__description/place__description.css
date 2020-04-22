@@ -1,3 +1,4 @@
 .place__description {
   align-self: start;
+  width: 100%; 
 }
