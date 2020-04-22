@@ -16,7 +16,7 @@
   .cover {
     width: 92.5vw;
     height: calc(100vw * (740 / 1280));
-    margin: calc(100vw * (92 / 1280) 0);
+    margin: calc(100vw * (92 / 1280));
   }
 }
 
