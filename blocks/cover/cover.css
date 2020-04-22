@@ -9,7 +9,25 @@
   text-align: center;
   height: 740px;
   margin: 92px 0;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../../../images/cover-route-66.jpg"); */
 }
+
+/* .cover__background {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../../images/cover-route-66.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
 
 .cover:hover {
   opacity: 0.3;

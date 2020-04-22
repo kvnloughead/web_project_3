@@ -3,7 +3,7 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 122%;
-  text-align: center;
+  /* text-align: center; */
   width: 320px;
   z-index: 1;
 }
