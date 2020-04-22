@@ -4,12 +4,13 @@
   line-height: 112%;
   color: #FFFFFF;
   text-decoration: none;
-  padding-right:  calc(100vw * (18 / 1280));
+  padding-right: 18px;
 }
 
 @media screen and (min-width: 1281px) {
   .footer__link {
     font-size: calc(100vw * (16 / 1280));
+    padding-right:  calc(100vw * (18 / 1280));
   }
 }
 

@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- I left the font-size of my place__text at 18px for 
-    and 1024 and 16px at 768 and 320.  I am told that the specs 
-    are wrong in this case. --> 
+    <!-- I think I fixed all of the errors you mentioned... and also some that you didn't. 
+    Hopefully I didn't create too many more while I was doing so! -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>From Portland to Portland</title>
@@ -28,7 +27,7 @@
       <section class="lead">
         <h1 class="lead__title">From Portland to Portland</h1>
         <p class="lead__subtitle">
-          An epic bicycle journey from Portland, ME. to Portland, OR</p>
+          An epic bicycle journey <span class="line-break">from Portland, ME. to Portland, OR</span></p>
         <figure class="lead__image-container">
           <img class="lead__image" src="./images/lead_image.png" 
              alt="The verdant hills of Portland, Maine.">
@@ -242,13 +241,13 @@
       <section class="cover">
         <a class="link cover__background" targe="_blank" href="https://www.nps.gov/nr/travel/route66/maps66.html">
             <h2 class="cover__title">Historic Route 66</h2>
-            <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. 
-              within an iframe</p>
+            <p class="cover__subtitle">The Main Street of America <span class="line-break">from Santa Monica, Cal. to Chicago, Ill. 
+              within an iframe</span></p>
         </a> 
       </section>
     </main>
     <footer class="footer">
-      <ul class="footer__links">
+      <nav class="footer__links">
         <li>
           <a href="https://yandex.com/maps" target="_blank" class="footer__link link-hover">Maps</a>
         </li>
@@ -258,7 +257,7 @@
         <li>
           <a href="https://www.any.do/" target="_blank" class="footer__link link-hover">Calendar</a>
         </li>
-      </ul>
+      </nav>
       <p class="footer__copyright">&#169;2020 Kevin Loughead</p>
     </footer>
   </body>

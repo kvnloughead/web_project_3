@@ -13,7 +13,7 @@
 @media screen and (min-width: 1281px) {
   .footer__copyright {
     line-height: 100%;
-    margin: calc(100vw * (16 / 1280)) 0 calc(100vw * (24 / 1280)) 0;
+    margin: 0 0 calc(100vw * (24 / 1280)) 0;
     font-size: calc(100vw * (14 / 1280));
     width: 100%;
   }
