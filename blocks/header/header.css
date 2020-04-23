@@ -8,6 +8,7 @@
   font-family: 'Inter', sans-serif;
   justify-content: space-between;
   display: flex;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 767px) {
